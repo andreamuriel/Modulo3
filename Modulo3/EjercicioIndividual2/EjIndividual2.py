@@ -55,13 +55,6 @@ for nombre in lista:
 #Para saludar solo a los nombres ingresados que están en la lista se agregó el mensaje "Bienvenida/o {nombre.capitalize()}" dentro del print de la línea 42.
 
 
- 
-
-
-
-
-
-
 #ignorar esto por favor:
 
 #Otras formas de escribir lo mismo: 
