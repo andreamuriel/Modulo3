@@ -1,0 +1,12 @@
+CREATE DATABASE academia;
+use academia;
+INSERT INTO cursos (nombre, costo, duracion, id_profesor) VALUES
+('Curso de Python', 200, 30, 1),
+('Curso de JavaScript', 150, 45, 2),
+('Curso de SQL', 100, 25, 3);
+
+
+INSERT INTO profesores (nombre, salario) VALUES
+('Juan Pérez', 3000),
+('Ana Gómez', 3500),
+('Luis Ramírez', 3200);
