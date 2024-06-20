@@ -39,11 +39,11 @@ class Bodega(Sucursal):
 
 
 # Crear una bodega
-bodega1 = Bodega(nombre="Bodega Central", direccion="Camino Melipilla 655", stock_total=500)
+bodega1 = Bodega(nombre="Bodega Central", direccion="Calle falsa 123", stock_total=500)
 
 # Crear una sucursal
-sucursal1 = Sucursal(nombre="Sucursal Plaza Oeste", direccion="Américo Vespucio 789")
-sucursal2 = Sucursal(nombre="Sucursal Plaza Vespucio", direccion="Américo Vespucio 1123")
+sucursal1 = Sucursal(nombre="Sucursal Sur", direccion="Avenida siempre viva 1234")
+sucursal2 = Sucursal(nombre="Sucursal Norte", direccion="Holanda 8756")
 
 # Llamando métodos
 if sucursal1.validar_stock():
